@@ -1,0 +1,78 @@
+.centerC {
+  margin: 40px;
+  margin-top: -66px;
+  min-height: 1000px;
+}
+.center {
+  display: flex;
+  padding: 64px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+@media only screen and (max-width: 700px) {
+  .center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.centerImg {
+  width: 350px;
+  height: 350px;
+}
+.centerR {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+@media only screen and (max-width: 700px) {
+  .centerR {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.centerL {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+@media only screen and (max-width: 700px) {
+  .centerL {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.centerT {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.centerBtn:hover {
+  background: black;
+  color: #f2aa4cff;
+}
